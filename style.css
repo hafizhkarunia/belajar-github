@@ -1,0 +1,67 @@
+
+        /* CSS akan kita tambahkan di sini */
+          * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #c8c8d0;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #0f2842, #3498db);
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+           header h1 {
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        } 
+
+        h2 {
+            background-color: #f5f6f8;   /* Warna latar belakang */
+            padding: 15px 20px;          /* Ruang dalam (atas-bawah, kiri-kanan) */
+            border-radius: 8px;          /* Sudut melengkung */
+            color: #003366;              /* Warna teks */
+            font-size: 24px;             /* Ukuran huruf */
+            margin-bottom: 20px;
+            margin-top: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            display: flex;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.7rem 1.5rem;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            background-color: rgba(255,255,255,0.1);
+            border: 2px solid transparent;
+            font-weight: 500;
+        }
+        nav a:hover {
+            background-color: rgba(255,255,255,0.2);
+            border-color: white;
+            transform: translateY(-2px);
+        }
+        p {
+            text-align: justify;
+        }
