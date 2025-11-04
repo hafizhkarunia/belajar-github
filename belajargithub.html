@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Saya</title>
+    <style>
+        /* CSS akan kita tambahkan di sini */
+          * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #c8c8d0;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #0f2842, #3498db);
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+           header h1 {
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        } 
+
+        h2 {
+            background-color: #f5f6f8;   /* Warna latar belakang */
+            padding: 15px 20px;          /* Ruang dalam (atas-bawah, kiri-kanan) */
+            border-radius: 8px;          /* Sudut melengkung */
+            color: #003366;              /* Warna teks */
+            font-size: 24px;             /* Ukuran huruf */
+            margin-bottom: 20px;
+            margin-top: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            display: flex;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.7rem 1.5rem;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            background-color: rgba(255,255,255,0.1);
+            border: 2px solid transparent;
+            font-weight: 500;
+        }
+        nav a:hover {
+            background-color: rgba(255,255,255,0.2);
+            border-color: white;
+            transform: translateY(-2px);
+        }
+        p {
+            text-align: justify;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Konten website(termasuk header, navigasi) akan ditulis disini -->
+     <header>
+        <h1>Website Saya</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#project">Project</a>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Konten utama akan ditulis di sini -->
+         <!-- Home Section -->
+        <section id="home" class="section">
+            <h2>Selamat Datang di Website Saya</h2>
+            <p>Halo dan selamat datang di website pribadi saya!
+                Saya sangat senang Anda berkunjung ke ruang digital ini, tempat di mana saya berbagi berbagai informasi seputar latar belakang pendidikan, pengalaman profesional, serta perjalanan saya dalam mengembangkan keterampilan dan wawasan di berbagai bidang. Di sini, Anda akan menemukan cerita tentang bagaimana saya memulai karier, pencapaian yang telah diraih, serta proyek-proyek yang saya tekuni dengan penuh semangat. Semoga informasi yang tersedia dapat memberikan inspirasi, gambaran yang jelas tentang siapa saya, dan membuka peluang untuk berkolaborasi di masa depan.</p>
+            <p>Website ini dirancang dan dikembangkan menggunakan teknologi HTML5 dan CSS modern, yang memungkinkan struktur halaman yang bersih, semantik, dan mudah dipahami oleh berbagai perangkat serta mesin pencari. Dengan memanfaatkan prinsip desain responsif, tampilan website secara otomatis menyesuaikan diri dengan ukuran layar pengguna—baik itu di komputer desktop, tablet, maupun smartphone—sehingga pengalaman pengguna tetap optimal dan nyaman. Selain itu, pendekatan user-friendly yang diterapkan memastikan navigasi yang intuitif, tata letak yang terorganisir, serta akses informasi yang cepat dan efisien bagi setiap pengunjung. Kalau kamu ingin menambahkan bagian tentang framework, animasi, atau fitur interaktif seperti JavaScript, aku bisa bantu lanjutkan. Mau dikembangkan ke bagian itu juga?</p>
+        </section>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>Tentang Saya</h2>
+            <p>Halo! Saya adalah seorang pengembang web dengan pengalaman dalam membangun aplikasi web yang responsif dan user-friendly.</p>
+            <p>Saya memiliki latar belakang pendidikan di bidang Teknologi Informasi dan telah bekerja pada berbagai proyek web.</p>
+        </section>
+
+        <section id="project" class="section">
+            <h2>Project</h2>
+                <p>Di bagian ini, saya mempersembahkan berbagai proyek yang telah saya kerjakan sebagai bagian dari perjalanan saya di dunia pengembangan web dan teknologi digital. Setiap proyek yang ditampilkan merupakan hasil dari proses pembelajaran, eksplorasi, dan penerapan keterampilan teknis yang saya kembangkan dari waktu ke waktu. Mulai dari pembuatan website statis menggunakan HTML5 dan CSS3, hingga pengembangan aplikasi web interaktif dengan JavaScript dan framework modern, saya berusaha menciptakan solusi yang tidak hanya fungsional, tetapi juga estetis dan ramah pengguna.</p>
+                <p>Proyek-proyek ini mencerminkan komitmen saya terhadap kualitas, efisiensi, dan pengalaman pengguna yang optimal. Saya percaya bahwa teknologi harus mampu menyederhanakan proses, memperkuat komunikasi, dan memberikan nilai nyata bagi penggunanya. Oleh karena itu, dalam setiap proyek, saya selalu berusaha memahami kebutuhan pengguna, merancang antarmuka yang intuitif, serta mengimplementasikan fitur-fitur yang relevan dan bermanfaat. Beberapa proyek yang saya tampilkan di sini mencakup tugas akademik, eksperimen pribadi, hingga kolaborasi tim dalam berbagai konteks. Setiap proyek memiliki tantangan tersendiri—mulai dari menyusun struktur data yang efisien, mengatasi bug yang kompleks, hingga menyempurnakan desain agar responsif di berbagai perangkat. Melalui tantangan-tantangan tersebut, saya belajar untuk berpikir kritis, beradaptasi dengan cepat, dan terus meningkatkan kualitas kerja saya. Saya berharap bagian ini tidak hanya menjadi portofolio teknis, tetapi juga menjadi sumber inspirasi dan bukti nyata dari semangat saya dalam menciptakan solusi digital yang berdampak. Jika Anda tertarik untuk mengetahui lebih lanjut tentang proyek-proyek ini, atau ingin berkolaborasi dalam pengembangan ide baru, saya sangat terbuka untuk berdiskusi dan berbagi pengalaman. 
+                    Kalau kamu ingin saya bantu menambahkan daftar proyek dengan deskripsi, teknologi yang digunakan, atau link demo, tinggal beri tahu saja!</p>
+        </section>
+    </main>
+</body>
+</html>
+
+</html>
+ 
